@@ -9,6 +9,25 @@ import numpy as np
 import joblib
 import os
 import matplotlib.pyplot as plt
+# -------------------------------
+# Sidebar : ข้อมูลผู้พัฒนา
+# -------------------------------
+st.sidebar.markdown("---")
+st.sidebar.header("👨‍💻 ผู้พัฒนา")
+
+st.sidebar.image(
+    "images/thanaphon.jpg",
+    width=180
+)
+
+st.sidebar.markdown("""
+### ธนพล ดีสองชั้น
+
+**รหัสนักศึกษา:** 664245013
+
+**ห้อง:** 66/43
+""")
+
 
 # ===== ตั้งค่าหน้าเว็บ =====
 st.set_page_config(
